@@ -1,0 +1,130 @@
+/* mobile first */
+:root {
+    --black: #181818;
+    --white: #ffffff;
+    --gray: #eeeeee;
+    --gray-light: #fbfbfb;
+    --font-body: 'PT Sans', sans-serif;
+    --font-title: 'Libre Baskerville', serif;
+}
+body {
+    font-family: var(--font-body);
+    font-size: 16px;
+    margin: 0;
+    background-color: var(--gray-light);
+}
+/* header */
+/* navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh;
+}
+.logo{
+    width:"32"; 
+    height:"32";
+}
+.menu-desk {
+    display: none;
+}
+.menu-mob {
+    display: block;
+}
+/* main */
+.img-mob {
+    display: block;
+}
+.img-desk {
+    display: none;
+}
+/* section 1 */
+.section1 {
+    margin-left: 5vh;
+    margin-right: 5vh;
+    text-align: center;
+}
+.font-h1 {
+    font-family: var(--font-title);
+    font-size: 2em;
+}
+.font-p1 {
+    font-family: var(--font-title);
+    font-size: 1em;
+}
+/* section 2 Licorne*/
+.section2 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.size-licorne{
+    width: 80%;
+    padding: 150px 0;
+}
+/* section 3 forme 3D*/
+.section3, .section4 {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.size-img {
+    width: 100%;
+}
+/* section 4 image avec étoile*/
+
+/* section 5 */
+.section5 {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--black);
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-bottom: 10vh;
+}
+.btnRead {
+    text-decoration: none;
+    color:var(--black);
+}
+/* section 6 licorne lisant le journal */
+.section6 {
+    background-color: var(--gray);
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    /* inverser l'image et le texte et mettre en colonne */
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 4vh 0;
+    align-items: center;
+    gap: 5vh;
+}
+.size-licorne-newspaper{
+    width: 80%;
+    padding: 5px 0;
+}
+.btnSend{
+    text-decoration: none;
+    background-color: var(--black);
+    color:var(--white);
+    padding: 1.5vh 15vh;
+    border-radius: 4px;
+}
+
+/* pied de page */
+footer {
+    background-color: var(--gray-light);
+    width: 90%;
+    margin: auto;
+    margin-top: 10vh;
+    text-align: center;
+}
+.svg-cadre {
+    padding: 1vh 6vh;
+    border: 1px solid var(--gray);
+}
+
